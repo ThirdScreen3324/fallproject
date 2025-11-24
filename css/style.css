@@ -3,10 +3,17 @@
 	box-sizing: border-box;
 }
 
+
 .page-nav {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-row: repeat(2, 1fr);
+}
+
+header {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-row: 1fr, 1fr;
 }
 
 .logo {
