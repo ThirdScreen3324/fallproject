@@ -1,21 +1,38 @@
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
+	list-style-type: none;
+	color: white;
 }
 
+body {
+	width: 1200px;
+	margin: auto;
+	background-color: black;
+}
 
 .page-nav {
+	font-size: 20px;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-	grid-template-row: repeat(2, 1fr);
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 4fr;
+	text-align: center;
+	gap: 1em;
 }
 
 header {
 	display: grid;
 	grid-template-columns: 1fr;
-	grid-template-row: 1fr, 1fr;
+	grid-template-rows: 3fr 1fr;
+	text-align: center;
 }
 
 .logo {
 	padding: 1em;
+}
+
+.nav-img {
+	object-fit: contain;
+	width: 100%;
+	height: 100%;
 }
